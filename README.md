@@ -20,7 +20,7 @@ Key Features
   2. Bilingual interface (Russian / English).
   3. Session history with hover-highlighting elements and input protection.
   4. Color-coded syntax highlighting for different character types in the result field.
-  5. Option to mask passwords (``).
+  5. Option to mask passwords ('***').
 
 Tech Stack
 1. Python 3.x
