@@ -1,29 +1,33 @@
-Современное десктопное приложение для генерации надежных паролей и PIN-кодов с поддержкой многоязычного интерфейса, переключения тем, анализа энтропии и уникального запоминающегося режима. Проект разработан на Python с использованием графических библиотек Tkinter и CustomTkinter.
-Основные возможности
+Modern Desktop Password Generator
 
-Два режима генерации:
-    1. Обычный режим: Настройка длины (от 4 до 64 символов), выбор наборов символов (цифры, строчные/заглавные буквы, спецсимволы) и фильтрация похожих символов (0, O, o, l, L, 1, i, I).
-    2. Запоминающийся режим: Создание легко запоминающихся, но безопасных комбинаций на основе словарей (с поддержкой пользовательских слов).
+A modern desktop application for generating secure passwords and PIN codes, featuring multi-language support, theme switching, entropy analysis, and a unique memorable mode. Developed in Python using Tkinter and CustomTkinter GUI libraries.
 
-Генератор шаблонов: Поддержка кастомных масок (например, LLL-DD-S, где L - буква, D - цифра, S - спецсимвол).
+Key Features
 
-Генератор PIN-кодов: Быстрое создание и копирование структурированных PIN-кодов длиной от 4 до 12 знаков.
+ Two Generation Modes:
+  1. Standard Mode: Custom length adjustment (4 to 64 characters), character set selection (digits, lowercase/uppercase letters, special characters), and filtering of ambiguous characters (0, O, o, l, L, 1, i, I).
+  2. Memorable Mode: Creation of easily memorable yet secure dictionary-based combinations (with custom word support).
 
-Анализ безопасности в реальном времени:
-    1. Расчёт энтропии (в битах).
-    2. Оценка времени подбора (брутфорса).
-    3. Проверка по базе уязвимых/слитых паролей.
-    4. Индикатор силы пароля.
+ Mask Generator: Support for custom templates (e.g., LLL-DD-S, where L stands for Letter, D for Digit, and S for Special character).
 
-Интерфейс и UX:
-    1. Поддержка светлой и тёмной тем оформления.
-    2. Двуязычный интерфейс (Русский / Английский).
-    3. История сеансов с подсветкой элементов при наведении и защитой от случайного ввода.
-    4. Подсветка разных типов символов в поле результата разными цветами.
-    5. Возможность скрытия паролей (***).
+ PIN Code Generator: Rapid creation and copying of structured PIN codes ranging from 4 to 12 characters.
 
-Используемые технологии
-    1. Python 3.x
-    2. Tkinter / CustomTkinter (для современного графического интерфейса)
-    3. Threading (анимация и фоновые процессы)
-    4. Math / Random / String (элементы генерации)
+ Real-time Security Analysis:
+  1. Entropy calculation (in bits).
+  2. Brute-force time estimation.
+  3. Breach check against a database of compromised passwords.
+  4. Password strength indicator.
+
+ UI & UX:
+  1. Light and dark theme support.
+  2. Bilingual interface (Russian / English).
+  3. Session history with hover-highlighting elements and input protection.
+  4. Color-coded syntax highlighting for different character types in the result field.
+  5. Option to mask passwords (``).
+
+Tech Stack
+
+1. Python 3.x
+2. Tkinter / CustomTkinter (for modern GUI design)
+3. Threading (for animations and background processes)
+4. Math / Random / String (core generation logic)
